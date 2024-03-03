@@ -191,7 +191,7 @@ export default defineNuxtModule({
 		log.success('Globals loaded into appConfig');
 
 		// Add title template to the app head for use with useHead composable
-		nuxt.options.app.head.titleTemplate = `%s - ${globals?.title ?? 'Agency OS'}`;
+		nuxt.options.app.head.titleTemplate = `%s - ${globals?.title ?? 'Kentucky Watershed Watch'}`;
 
 		log.success(`Directus Module Loaded`);
 	},
