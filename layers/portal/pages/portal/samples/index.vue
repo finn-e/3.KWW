@@ -97,10 +97,10 @@ const columns = [
 		label: '#',
 		sortable: true,
 	},
-	{
+	/*	{
 		key: 'status',
 		label: 'Status',
-	},
+	},*/
 	{
 		key: 'due_date',
 		label: 'Due Date',
@@ -115,11 +115,11 @@ const columns = [
 		label: 'Total',
 		sortable: true,
 	},
-	{
+	/*	{
 		key: 'amount_due',
 		label: 'Amount Due',
 		sortable: true,
-	},
+	},*/
 	{
 		key: 'actions',
 	},
@@ -217,10 +217,10 @@ function clearFilters() {
 					</UButton>
 				</template>
 				<template #amount_due-data="{ row }">
-					{{ formatCurrency(row.amount_due) }}
+					{{ row.amount_due }}
 				</template>
 				<template #total-data="{ row }">
-					{{ formatCurrency(row.total) }}
+					{{ row.total }}
 				</template>
 				<template #contact-data="{ row }">
 					<UserBadge :user="row.contact" size="sm" />

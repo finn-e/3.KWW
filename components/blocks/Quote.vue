@@ -30,6 +30,10 @@ defineProps<{
 				name="material-symbols:format-quote-rounded"
 				class="absolute w-20 h-20 rotate-180 -left-8 text-primary/20 -top-8"
 			/>
+			<UIcon
+				name="material-symbols:format-quote-rounded"
+				class="absolute w-20 h-20 -right-8 text-primary/20 -bottom-8"
+			/>
 		</div>
 
 		<div class="w-full mt-4 text-sm font-semibold tracking-wider uppercase word-spacing-tight lg:text-lg font-display">

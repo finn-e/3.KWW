@@ -25,9 +25,9 @@ const actions = [
 		click: () => navigateTo('/portal/files'),
 	},
 	{
-		id: 'invoices',
-		label: 'Go to Invoices',
-		click: () => navigateTo('/portal/billing/invoices'),
+		id: 'calendar',
+		label: 'Go to Calendar',
+		click: () => navigateTo('/portal/calendar'),
 	},
 	{
 		id: 'acccount',

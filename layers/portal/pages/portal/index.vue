@@ -7,7 +7,7 @@ function useGreetings() {
 		"Your vision is our mission. Together, we'll create <em>something outstanding</em>.",
 		"The best projects are <em>fueled by partnership</em>. Here's to another successful day working together!",
 		'Every detail, every idea, every feedback. <em>It all matters</em>. Thank you for entrusting us with your vision.',
-		"Project management isn't just about the destination, it's about <em>enjoying and learning from the journey</em>. We're thrilled to be on this adventure with you.",
+		"Life isn't just about the destination, it's about <em>enjoying and learning from the journey</em>. We're thrilled to be on this adventure with you.",
 		'With every challenge, we <em>grow stronger</em>. Thanks for pushing us to be our best!',
 		"From concept to completion, your aspirations are in <em>dedicated hands</em>. Let's keep moving forward, together.",
 		"Like a symphony, <em>every note counts</em>. We're harmonizing perfectly with your vision, creating a masterpiece in progress.",

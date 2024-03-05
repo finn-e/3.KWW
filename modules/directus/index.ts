@@ -17,7 +17,7 @@ const log = useLogger();
 
 export default defineNuxtModule({
 	meta: {
-		name: 'agencyos-nuxt-directus',
+		name: 'kww-nuxt-directus',
 		configKey: 'directus',
 		compatibility: {
 			nuxt: '^3.0.0',

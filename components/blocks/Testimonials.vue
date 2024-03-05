@@ -134,6 +134,11 @@ function handleNavButton(direction: 'left' | 'right') {
 						name="material-symbols:format-quote-rounded"
 						class="absolute w-20 h-20 rotate-180 left-2 text-primary/20 top-2"
 					/>
+					<UIcon
+						name="material-symbols:format-quote-rounded"
+						class="absolute w-20 h-20 right-2 text-primary/20 bottom-28"
+					/>
+
 					<TypographyProse v-if="testimonial?.content" :content="testimonial?.content" size="lg" class="relative" />
 					<div class="flex pt-6 mt-4 space-x-2 border-t border-gray-300 dark:border-gray-700">
 						<!-- Person Image -->
@@ -148,7 +153,6 @@ function handleNavButton(direction: 'left' | 'right') {
 							name="material-symbols:account-circle"
 							class="inline-block w-16 h-16 text-gray-300 border rounded-button"
 						/>
-
 						<div class="relative">
 							<p v-if="testimonial.title" class="font-semibold text-primary font-display lg:text-2xl">
 								{{ testimonial.title }}

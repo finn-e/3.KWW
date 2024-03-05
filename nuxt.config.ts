@@ -98,7 +98,7 @@ export default defineNuxtConfig({
 
 	site: {
 		url: process.env.NUXT_PUBLIC_SITE_URL || 'http://localhost:3000',
-		name: 'AgencyOS',
+		name: 'Kentucky Watershed Watch',
 	},
 
 	// OG Image Configuration - https://nuxtseo.com/og-image/getting-started/installation

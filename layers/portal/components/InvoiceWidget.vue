@@ -41,7 +41,7 @@ const columns = [
 	},
 	{
 		key: 'amount_due',
-		label: 'Amount Sampled',
+		label: 'e. Coli',
 	},
 ];
 </script>
@@ -56,13 +56,13 @@ const columns = [
 
 		<UTable :columns="columns" :rows="invoices as any">
 			<template #invoice_number-data="{ row }">
-				<UButton variant="outline" :to="`/portal/billing/invoices/${row.id}`">{{ row.invoice_number }}</UButton>
+				<UButton variant="outline" :to="`/portal/sites/${row.id}`">{{ row.invoice_number }}</UButton>
 			</template>
 			<template #due_date-data="{ row }">
 				<p class="capitalize">{{ getFriendlyDate(row.due_date) }}</p>
 			</template>
 			<template #amount_due-data="{ row }">
-				<p class="capitalize">{{ formatCurrency(row.amount_due) }}</p>
+				<p class="capitalize">{{ row.amount_due }}</p>
 			</template>
 		</UTable>
 	</div>
