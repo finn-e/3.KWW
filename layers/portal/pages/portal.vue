@@ -31,8 +31,8 @@ const sidebarNavigation = {
 	top: [
 		{ name: 'Search', click: () => (showCommandPalette.value = true), icon: 'material-symbols:search-rounded' },
 		{ name: 'Dashboard', href: '/portal', icon: 'material-symbols:home-outline-rounded' },
+		{ name: 'Sample', href: '/portal/samples/new', icon: 'mdi:eyedropper' },
 		{ name: 'Sites', href: '/portal/sites', icon: 'material-symbols:tab-group-outline-rounded' },
-		{ name: 'Samples', href: '/portal/samples', icon: 'material-symbols:folder-outline-rounded' },
 		{ name: 'Donations', href: '/portal/donations', icon: 'material-symbols:attach-money-rounded' },
 		{ name: 'Account', href: '/portal/account', icon: 'material-symbols:account-circle-outline' },
 	],
